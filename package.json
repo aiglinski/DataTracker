@@ -2,18 +2,20 @@
   "name": "mongotraversy",
   "version": "1.0.0",
   "description": "Video idea concept, could be manipulate to be a model for inventory and location tracking idea",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon ./app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Igloo",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
     "jquery": "^3.4.1",
+    "method-override": "^3.0.0",
     "mongoose": "^5.7.10",
     "nodemon": "^1.19.4",
     "popper": "^1.0.1"
